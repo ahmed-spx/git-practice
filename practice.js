@@ -55,4 +55,16 @@ function bubbleSort(array) {
 }
 
 var newArray = [5, 3, 8, 1, 2];
-console.log(bubbleSort(newArray)); // sorts the array in ascending order
+// console.log(bubbleSort(newArray)); // sorts the array in ascending order
+
+// console.log(JSON.stringify(newArray)); // Stringify the variable
+
+var quit = false;
+var i = 0;
+do {
+  i++;
+  // console.log(i);
+  if( i == 5) {
+    quit = true;
+  }
+}while (!quit); // infinite loop
